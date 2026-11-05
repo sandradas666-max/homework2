@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     {% load static %}
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    
+	
+</head>
+<body>
+	<main>
+		<h1>My Image Gallery</h1>
+		<section class="gallery" aria-label="Image gallery">
+			<figure>
+				<img src="https://media.istockphoto.com/id/1069539210/photo/fantastic-autumn-sunset-of-hintersee-lake.jpg?s=612x612&w=0&k=20&c=oqKJzUgnjNQi-nSJpAxouNli_Xl6nY7KwLBjArXr_GE=" alt="Mountain reflected in a quiet lake">
+				<figcaption>Peaceful mountain lake</figcaption>
+			</figure>
+			<figure>
+				<img src="https://media.istockphoto.com/id/1443409611/photo/man-on-stone-on-the-hill-and-beautiful-mountains-in-haze-at-colorful-sunset-in-autumn.jpg?s=612x612&w=0&k=20&c=dcyDpPqlhCWMZYgqgHSrJZdoaH_ARrlgkpUcARp1_GU=" alt="Sunlit alpine lake surrounded by mountains">
+				<figcaption>A view from the mountains</figcaption>
+			</figure>
+			<figure>
+				<img src="https://media.istockphoto.com/id/498548086/photo/rays-of-sunlight-and-green-forest.jpg?s=612x612&w=0&k=20&c=9RwO17TuPHgCVlwQBPBVgSTrKx2aK_245-hgSWzKP7g=" alt="Sunlight filtering through a green forest">
+				<figcaption>Sunlight in the forest</figcaption>
+			</figure>
+		</section>
+	</main>
+</body>
+</html>
